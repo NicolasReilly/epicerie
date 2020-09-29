@@ -1,0 +1,121 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.liste {
+  background-color: #9cebd5;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titre {
+  position: absolute;
+  color: white;
+  font-size: 70px;
+  font-family: Georgia;
+  text-align: center;
+}
+
+.emoji {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  font-size: 100px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.emojiTop {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  position: absolute;
+  top: 25px;
+}
+
+.emojiCenter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.emojiBottom {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 25px;
+}
+
+.formBG {
+  height: 100vh;
+  width: 100vw;
+  background-color: #e0ab94;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 340px;
+  padding: 20px;
+  background-color: #9cebd5;
+  border-radius: 10px;
+  position: absolute;
+  justify-content: center;
+  opacity: 0;
+}
+
+.formText {
+  width: 200px;
+  height: 40px;
+  border: none;
+  padding: 0;
+}
+
+input[type="text"] {
+  padding-left: 8px;
+}
+
+.btnAjouter {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: #efefef;
+}
+
+.entree {
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.btnSup {
+  background-color: #efefef;
+  border: none;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.newEntree {
+  display: flex;
+}
+
+.pen {
+  position: fixed;
+  width: 10%;
+  bottom: 20px;
+  left: 0;
+}
